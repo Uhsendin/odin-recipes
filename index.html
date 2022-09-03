@@ -4,21 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="homepage.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
     <main>
-      <h1>Odin Recipes</h1>
-      <ul>
-        <li>
-          <a href="recipes/pulled-pork.html">Slow Cooker Texas Pulled Pork</a>
-        </li>
-        <li><a href="recipes/chicken-pot-pie.html">Chicken Pot Pie</a></li>
-        <li>
-          <a href="recipes/caramel-apple-cake.html"> Caramel Apple Dump Cake</a>
-        </li>
-      </ul>
+      <head>
+        <h1>Odin Recipes</h1>
+      </head>
+      <section class="recipes-box">
+        <div class="clearfix">
+          <div class="image">
+            <h2>Texas Pulled Pork</h2>
+            <a href="recipes/pulled-pork.html">
+              <img id="pic" src="images/pork-home.png" alt="" />
+            </a>
+          </div>
+          <div class="image">
+            <h2>Chicken Pot Pie</h2>
+            <a href="recipes/chicken-pot-pie.html">
+              <img id="pic" src="images/easy-chicken-pot-pie.jpg" alt="" />
+            </a>
+          </div>
+          <div class="image">
+            <h2>Caramel Apple Dump Cake</h2>
+            <a href="recipes/caramel-apple-cake.html">
+              <img id="pic" src="images/new-apple.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
